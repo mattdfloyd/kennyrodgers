@@ -1,0 +1,160 @@
+/* pink: #ED008C */
+/* yello: #FEF200 */
+img {
+  max-width: 100%;
+}
+
+header {
+  background: url(img/header.jpg) center center;
+  background-size: cover;
+}
+
+footer {
+  background-color: #FEF200;
+  text-align: center;
+}
+
+body, a, .btn {
+  font-family: 'Trade Gothic W01', helvetica neue, sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+#shout_out h2 {
+  margin: 20px 10px;
+}
+
+.btn {
+  border-radius: 0px;
+  text-transform: uppercase;
+  border-width: 2px;
+}
+
+.btn.btn-primary,
+.btn-primary {
+  background-color: #FFF200;
+  border-color: #FFF200;
+  color: black;
+}
+
+.btn.btn-primary:visited,
+.btn.btn-primary:hover,
+.btn.btn-primary:active,
+.btn.btn-primary:focus {
+  background-color: transparent;
+  border-color: #FFF200;
+  color: #FFF200;
+}
+
+.btn.btn-secondary,
+.btn-secondary {
+  background-color: #ED008C;
+  border-color: #ED008C;
+  color: white;
+}
+
+.btn.btn-secondary:hover,
+.btn-secondary:hover,
+.btn.btn-secondary:active,
+.btn-secondary:active,
+.btn.btn-secondary:focus,
+.btn-secondary:focus{
+  background-color: transparent;
+  border-color: #ED008C;
+  color: #ED008C;
+}
+
+.bg-black-transparent {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-footer {
+  text-align: center;
+}
+
+.itunes-button {
+  max-width: 125px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.pad {
+  padding: 20px;
+}
+
+.pad-lg {
+  padding: 20px;
+}
+
+.pad-xl {
+  padding: 60px 20px;
+}
+
+.pad-lg {
+  padding: 40px;
+}
+
+.text-white {
+  color: white;
+}
+
+#shout_out {
+  background-color: #ED008C;
+}
+
+.container-lg {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cover-wrapper {
+  position: relative;
+  background-color: black;
+}
+
+.cover-hover-wrapper {
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.cover-wrapper img {
+  opacity: 1;
+}
+
+.cover-wrapper img,
+.cover-hover-wrapper {
+  -webkit-transition: opacity .5s ease-in;
+       -moz-transition: opacity .5s ease-in;
+         -o-transition: opacity .5s ease-in;
+        -ms-transition: opacity .5s ease-in;
+            transition: opacity .5s ease-in;
+}
+
+.cover-wrapper:hover img {
+  opacity: .4;
+}
+
+.cover-wrapper:hover .cover-hover-wrapper {
+  opacity: 1;
+}
+
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9 {
+  padding: 0px;
+}
