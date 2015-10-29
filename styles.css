@@ -4,18 +4,33 @@ img {
   max-width: 100%;
 }
 
-header {
+#page_header {
   background: url(img/header.jpg) center center;
   background-size: cover;
+  position: relative;
 }
 
-footer {
+#page_header .social {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#page_header .social a {
+  color: #fff;
+}
+#page_header .social img {
+  width: 16px;
+  margin: 6px;
+}
+
+#page_footer {
   background-color: #FEF200;
   text-align: center;
 }
 
 body, a, .btn {
-  font-family: 'Trade Gothic W01', helvetica neue, sans-serif;
+  font-family: 'Trade Gothic W01', "helvetica neue", arial, helvetica, sans-serif;
 }
 
 p {
