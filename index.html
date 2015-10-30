@@ -165,26 +165,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script type="text/javascript">
-    function centerVerical() {
-      $(".vertical-parent").each(function(){
-        var parent_height = $(this).height(),
-            child         = $(".vertical-child", this);
-            child_height  = child.height(),
-            height_diff   = parent_height - child_height,
-            distance      = height_diff * 0.5;
-
-        child.css("margin-top", distance);
-      })
-    }
-
-    $(window).resize(function(){
-      centerVerical();
-    }).resize();
-
-    $(window).load(function(){
-      centerVerical();
-    });
-
     $(function() {
       $('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
