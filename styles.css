@@ -29,47 +29,6 @@ img {
   text-align: center;
 }
 
-.container-links {
-  width: 100%;
-  margin: 1.5rem auto;
-  max-width: 960px;
-}
-
-.buy_button {
-  display: block;
-  padding: 2rem;
-  margin: 1rem;
-  text-decoration: none;
-  text-align: center;
-  min-width: 25%;
-  color: #ED008C;
-  background-color: #FEF200;
-}
-.buy_button:hover {
-  background-color: #ED008C;
-  color: #FEF200;
-  text-decoration: none;
-}
-.buy_button:hover h1 {
-  text-decoration: underline;
-}
-.buy_button h1,
-.buy_button p {
-  margin: 0;
-}
-@media only screen and (min-width : 768px) {
-  .container-links {
-    display: flex;
-    justify-content: space-between;
-  }
-  .buy_button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-  }
-}
-
 .container-video {
    width: 100%;
   margin: 0 auto;
